@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_to_row"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/googleg_standard_color_18"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/textview_to_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/edit_round"
+        android:maxWidth="240dp"
+        android:padding="16dp"
+        android:text="This is Message that will wrape into multiple lines and keep on going"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageview_to_row"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

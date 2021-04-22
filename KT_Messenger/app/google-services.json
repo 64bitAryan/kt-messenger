@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "965085779791",
+    "project_id": "ktmessenger-e7b5a",
+    "storage_bucket": "ktmessenger-e7b5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965085779791:android:3392c2db3dabe09b8d173a",
+        "android_client_info": {
+          "package_name": "com.example.kt_messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965085779791-gft1odb8v3firdq84u6ke4b3rqrk832c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp4IRgaaZ7jjNQM0ITtMPhNm8OhcxLH0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965085779791-gft1odb8v3firdq84u6ke4b3rqrk832c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
